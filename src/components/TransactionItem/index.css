@@ -1,0 +1,27 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.the-list {
+  display: flex;
+  justify-content: space-between;
+}
+.lists {
+  display: flex;
+  justify-content: space-evenly;
+}
+.delete-btn {
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+  border: 0px solid;
+}
+.image {
+  height: 30px;
+  width: 30px;
+}
+.list {
+  margin: 5px;
+  color: #334155;
+  font-size: 17px;
+}

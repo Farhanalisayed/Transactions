@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+@media (max-width: 767px) {
+  .money-details {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 767px) {
+  .money-details {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.balance-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #84cc16;
+  border-radius: 8px;
+  margin: 5px;
+  height: 220px;
+  width: 220px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: #06b6d4;
+  border-radius: 8px;
+  margin: 5px;
+  height: 220px;
+  width: 220px;
+}
+.text-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.image {
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+}
+.balance-tag {
+  color: black;
+  font-size: 20px;
+}
+.tag {
+  color: #7c3aed;
+  font-size: 20px;
+}
+.balance {
+  color: black;
+  font-size: 25px;
+}
+.rupees {
+  color: #7c3aed;
+  font-size: 25px;
+}

@@ -1,0 +1,109 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.the-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 767px) {
+  .form-elem {
+    background-color: white;
+    border-radius: 7px;
+    border: 1px solid #7e858e;
+    margin: 7px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .upper {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .lower-cards {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .history-elem {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    border: 1px solid #7e858e;
+  }
+}
+
+@media (min-width: 767px) {
+  .form-elem {
+    background-color: white;
+    width: 50%;
+    border-radius: 7px;
+    border: 1px solid #7e858e;
+    margin: 7px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .history-elem {
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    width: 50%;
+    border: 1px solid #7e858e;
+  }
+  .upper {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .lower-cards {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.data-elem {
+  background-color: white;
+  border: 1px solid #7e858e;
+  margin: 7px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.titles-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.titles {
+  display: flex;
+  justify-content: space-evenly;
+}
+.title {
+  color: black;
+  font-size: 17px;
+  margin: 5px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  
+}
+.heading {
+  font-size: 20px;
+  color: #1e293b;
+}
